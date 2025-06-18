@@ -8,15 +8,14 @@ O script lê um arquivo CSV contendo dados históricos mensais de anomalias de T
 
 ## Funcionalidades
 
-* Leitura flexível do arquivo CSV, com exemplos de caminhos para diferentes ambientes: Google Colab, Windows, Linux e MacOS.
-* Separação dos valores positivos e negativos das anomalias para análise visual distinta.
-* Geração de gráfico de linha simples e claro, com personalização básica.
-* Comentários detalhados no código para facilitar o entendimento e possíveis adaptações.
+- Leitura flexível do arquivo CSV, com exemplos de caminhos para diferentes ambientes: Google Colab, Windows, Linux e MacOS.
+- Separação dos valores positivos e negativos das anomalias para análise visual distinta.
+- Geração de gráfico de linha simples e claro, com personalização básica.
+- Comentários detalhados no código para facilitar o entendimento e possíveis adaptações.
 
 ## Como usar
 
 1. **Instale as bibliotecas necessárias**:
-
    ```bash
    pip install matplotlib pandas
    ```
@@ -27,21 +26,13 @@ O script lê um arquivo CSV contendo dados históricos mensais de anomalias de T
 ## Exemplo de dados esperados
 
 | Mês | ANOM  |
-| --- | ----- |
-| 0   | 0.15  |
-| 1   | -0.12 |
-| 2   | 0.05  |
-| ... | ...   |
+|------|-------|
+| 0    | 0.15  |
+| 1    | -0.12 |
+| 2    | 0.05  |
+| ...  | ...   |
 
 ## Resultados esperados
 
-* Gráfico com linhas em vermelho para valores positivos (aquecimento) e azul para valores negativos (resfriamento).
-* Visualização clara para auxiliar análises climáticas e estudos relacionados ao fenômeno El Niño.
-
----
-
-Se precisar de ajuda para adaptar o script a outros formatos de dados ou adicionar funcionalidades, fique à vontade para abrir uma issue!
-
----
-
-Quer que eu crie um arquivo README.md já formatado para você?
+- Gráfico com linhas em vermelho para valores positivos (aquecimento) e azul para valores negativos (resfriamento).
+- Visualização clara para auxiliar análises climáticas e estudos relacionados ao fenômeno El Niño.
